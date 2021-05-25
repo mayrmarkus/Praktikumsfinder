@@ -1,0 +1,86 @@
+{
+  "name": "praktikums-finder",
+  "version": "0.1.0",
+  "homepage": "/",
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.44",
+    "@material-ui/styles": "^4.9.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@wojtekmaj/react-daterange-picker": "^2.5.0",
+    "antd": "^4.1.1",
+    "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.13.0",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "particles-bg": "^2.4.7",
+    "rc-progress": "^2.5.2",
+    "rc-steps": "^3.5.0",
+    "react": "^16.13.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap-modal": "^4.2.0",
+    "react-date-range": "^1.0.0-beta2",
+    "react-datepicker": "^2.10.1",
+    "react-detect-offline": "^2.4.0",
+    "react-dom": "^16.12.0",
+    "react-edit-inline": "^1.0.8",
+    "react-email-editor": "^1.0.0",
+    "react-file-viewer": "^1.2.1",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^3.10.0",
+    "react-native-picker-select": "^6.3.4",
+    "react-preview-file": "^0.1.3",
+    "react-radio-button-group": "^1.2.8",
+    "react-radio-buttons": "^1.2.2",
+    "react-responsive": "^8.0.1",
+    "react-router": "latest",
+    "react-scripts": "^3.4.3",
+    "react-select": "^3.0.8",
+    "react-spinkit": "^3.0.0",
+    "react-split-pane": "^0.1.89",
+    "react-star-ratings": "^2.3.0",
+    "react-stars": "^2.2.5",
+    "sass": "^1.26.3",
+    "scss": "^0.2.4",
+    "temp-write": "^4.0.0"
+  },
+  "scripts": {
+    "start": "env-cmd -f ./.env.development react-scripts start",
+    "start_on_apiServer": "env-cmd -f ./.env.production react-scripts start",
+    "build": "env-cmd -f ./.env.production react-scripts build",
+    "build_ci": " cross-env NODE_OPTIONS=--max_old_space_size=8096 ts-node build",
+    "test": "env-cmd .env.development react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@kadira/react-split-pane": "^1.4.7",
+    "env-cmd": "^10.1.0",
+    "react-datetime-picker": "^2.9.0",
+    "react-router-dom": "^5.1.2",
+    "react-widgets": "^4.4.11"
+  }
+}

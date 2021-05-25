@@ -1,0 +1,20 @@
+
+.classViewContent{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: calc(100% - 35px);
+    margin: auto;
+    position: relative;
+    margin-bottom: 1.5rem;
+    top: 1vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .classViewContent{
+
+        margin-top: 50px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,146 @@
+//Edit SCSS File !!!
+//Run npm install -g sass and Add a phpstorm filewatcher
+
+
+/* Color Theme Swatches in Hex*/
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+$enable-rounded: false;
+
+$color-theme_logo-1-hex: rgb(0, 48, 80);
+$color-theme_logo-2-hex: #FFD635;
+$color-theme_logo-3-hex: #ffd635;
+$color-theme_logo-4-hex: #ffd635;
+$color-theme_logo-5-hex: #F2F2F2;
+
+
+$theme-colors: (
+        "primary": $color-theme_logo-2-hex,
+        "dark": $color-theme_logo-1-hex,
+        "light": rgb(250, 250, 250),
+        "secondary": #0c6799,
+
+);
+
+
+.rdrDayStartPreview .rdrDayEndPreview {
+  border-color: $color-theme_logo-2-hex !important;
+}
+.detailsDark summary {
+  text-transform: uppercase;
+  color: $color-theme_logo-5-hex;
+
+  &a {
+    color: $color-theme_logo-5-hex;
+  }
+}
+
+.detailsDark {
+  border-radius: 0;
+}
+
+.border_new {
+  border-style: groove;
+  border-color: $color-theme_logo-1-hex;
+  border-width: 7px;
+}
+
+.adminViewContent {
+  background-color: $color-theme_logo-5-hex;
+}
+
+.noDividerList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dividerList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bgGradient {
+  background: linear-gradient(to right, $color-theme_logo-1-hex, $color-theme_logo-5-hex);
+}
+
+.detailsDark summary {
+  text-transform:uppercase;
+}
+
+.detailsDark div a{
+  text-transform:uppercase;
+  color: $color-theme_logo-2-hex;
+  text-align: left !important;
+}
+
+//internship steps
+
+.rc-steps-item-tail:after{
+  background-color: $color-theme_logo-1-hex !important;
+}
+
+.rc-steps-item-finish .rc-steps-icon{
+  color: $color-theme_logo-2-hex !important;
+}
+.rc-steps-item-active .rc-steps-icon{
+  color: $color-theme_logo-1-hex !important;
+  text-align: center !important;
+}
+
+.asideDesktopTopMobile{
+  display: flex;
+}
+
+.sideNav{
+  max-width: 20%;
+  height: 90vh !important;
+  position: sticky;
+  align-self: flex-start;
+  top: 3rem
+}
+
+@media only screen and (max-width: 600px) {
+
+  .fillChildrenOnMobile{
+    width: 100%;
+  }
+
+  .dividerList{
+    & > div{
+      width: 100% !important;
+    }
+  }
+ .noDividerList{
+    & > div{
+      width: 100% !important;
+    }
+  }
+
+  .sideNav{
+    top: 0;
+    margin: 0;
+    height: auto !important;
+    position: relative;
+    min-width: 100%;
+  }
+  .asideDesktopTopMobile{
+    flex-direction: column!important;
+    width: 100%;
+    margin: 0;
+  }
+
+
+
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+

@@ -1,0 +1,63 @@
+.menuPointsSidebarWrapper div {
+    margin: 10px 15px;
+    padding: 5px;
+
+}
+
+.menuPointsSidebarWrapper div a {
+
+}
+
+.menuPointsSidebarWrapper div:hover {
+    color: #868e96;
+}
+
+.menuPointsSidebarWrapper div a:hover {
+    text-decoration: none;
+}
+
+.menuPointsSidebarWrapper div a:active {
+    box-shadow: none;
+}
+
+summary{
+    padding: 5px;
+    border: none !important;
+}
+
+
+details[open] summary ~ * {
+    animation-name: invisiblyGrowFontSize;
+    animation-duration: 500ms, 200ms;
+    animation-delay: 0ms, 500ms;
+}
+
+/* add wrapper, continue with font-size */
+@keyframes invisiblyGrowFontSize {
+    0% {
+
+        font-size: 0;
+        opacity: 0;
+    }
+    100% {
+        font-size: 1em;
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    0% {
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+.menuPointsSidebarWrapper summary {
+    margin: 5px 0;
+}
+
+.adminViewContent {
+    padding: 6px;
+    border-radius: 6px;
+    min-height: 90vh;
+}

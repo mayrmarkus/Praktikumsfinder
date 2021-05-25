@@ -1,0 +1,94 @@
+/**
+General Design
+**/
+.primary{
+    background-color: #002855;
+    border-color: #002855;
+}
+
+.secondary{
+    background-color: #B0B1C6;
+    border-color: #B0B1C6;
+}
+
+.success{
+    background-color: #0ee378;
+    border-color: #0ee378;
+}
+
+.danger{
+    background-color: #ff1212;
+    border-color: #ff1212;
+}
+
+.warning{
+    background-color: #FFD635;
+    border-color: #FFD635;
+}
+
+
+
+/**
+Primary button Outline
+**/
+
+.outline-primary {
+    background-color: white;
+    color: black;
+    border-color: #002855;
+    box-shadow: none;
+}
+.outline-primary:hover {
+    background-color: #002855;
+    color: white;
+    border-color: #002855;
+    box-shadow: none;
+}
+.outline-primary:active {
+    background-color: #002855;
+    color: white;
+    border-color: #002855;
+    box-shadow: none;
+}
+.outline-primary:focus {
+    background-color: white;
+    color: black;
+    border-color: #002855;
+    box-shadow: none;
+}
+
+.primary:hover{
+    background-color: #ffcb00;
+}
+
+
+:root {
+    --blue: #002855;
+    --indigo: #002855;
+    --purple: #002855;
+    --pink: #002855;
+    --red: #002855;
+    --orange: #002855;
+    --yellow: #002855;
+    --green: #002855;
+    --teal: #002855;
+    --cyan: #002855;
+    --white: #002855;
+    --gray: #002855;
+    --gray-dark: #002855;
+    --primary: #002855;
+    --secondary: #002855;
+    --success: #002855;
+    --info: #002855;
+    --warning: #002855;
+    --danger: #002855;
+    --light: #002855;
+    --dark: #002855;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

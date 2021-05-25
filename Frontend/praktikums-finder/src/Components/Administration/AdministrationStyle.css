@@ -1,0 +1,9 @@
+.content{
+    width: 80vw;
+    min-height: 90vh;
+    margin: auto;
+}
+
+.classAddingInformation > div {
+    margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+<tokendata>
+    <iss>
+        http://localhost
+    </iss>
+    <key>
+        test
+    </key>
+    <aud>
+        http://localhost
+    </aud>
+</tokendata>
